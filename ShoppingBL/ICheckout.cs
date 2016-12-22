@@ -9,5 +9,7 @@ namespace ShoppingBL
     interface ICheckout
     {
         decimal GetTotalCostWithoutOffers(List<Product> products);
+
+        decimal GetTotalCostWithOffer(List<Product> products);
     }
 }

@@ -49,7 +49,7 @@ namespace CheckoutTest
             };
 
             var totalCost = new CheckoutService().GetTotalCostWithoutOffers(products);
-            //Expected apples + oranges prices =   1.35 + 1.95 = 3.30
+            
         }
 
 
@@ -101,4 +101,6 @@ namespace CheckoutTest
             Assert.AreEqual(1.10m, totalCost);
         }
     }
+
+
 }
